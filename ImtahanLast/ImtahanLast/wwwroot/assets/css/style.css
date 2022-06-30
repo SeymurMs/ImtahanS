@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+#day {
+  background-color: #3fbbc0;
+}
+#day .navbar {
+  padding: 0 !important;
+}
+#day .navbar .container a {
+  color: white;
+}
+#day .navbar .container a i {
+  font-size: 16px;
+}
+#day .navbar .container a span {
+  font-size: 16px;
+}
+
+#navigation .navbar .container .navbar-brand img {
+  width: 50%;
+}
+#navigation .navbar .container .nav-item:hover {
+  color: rgb(63, 187, 192) !important;
+}
+#navigation .navbar .container .nav-item .MakeAn {
+  color: white !important;
+  border: 1px solid rgb(63, 187, 192);
+  background-color: rgb(63, 187, 192);
+  margin-left: 10px;
+}
+
+#sliders .carousel-inner .carousel-item .carousel-caption {
+  border-top: 1px solid #3fbbc0;
+  border-width: 5px;
+  background-color: white;
+  color: black;
+}
+#sliders .carousel-inner .carousel-item .carousel-caption a {
+  border: 1px solid #3fbbc0;
+  background-color: #3fbbc0;
+  color: white;
+  padding: 5px 10px;
+}
+
+#Services {
+  padding-top: 50px;
+}
+#Services .container .row h1 {
+  text-align: center;
+}
+#Services .container .row .servicesHead {
+  text-align: center;
+}
+#Services .container .row .servicesInside {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#Services .container .row .servicesInside i {
+  font-size: 60px;
+  padding-bottom: 20px;
+  color: #3fbbc0;
+}
+#Services .container .row .servicesInside i::before {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-radius: 20px;
+}
+#Services .container .row .servicesInside h4 {
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.4s all;
+}
+#Services .container .row .servicesInside h4:hover {
+  color: rgb(63, 187, 192);
+  cursor: pointer;
+}
+
+#Doctors {
+  padding-top: 50px;
+}
+#Doctors .DoctorHead {
+  text-align: center;
+}
+#Doctors .DoctorHead p {
+  padding-top: 10px;
+}
+#Doctors .card {
+  position: relative;
+  transition: 0.5s all;
+  border: none;
+}
+#Doctors .card .card-body {
+  text-align: center;
+}
+#Doctors .card .icons {
+  position: absolute;
+  bottom: 28%;
+  left: 29%;
+  display: none;
+}
+#Doctors .card .icons a {
+  color: grey;
+  padding-left: 10px;
+  transition: 0.4s all;
+}
+#Doctors .card .icons a:hover {
+  color: #3fbbc0;
+}
+#Doctors .card:hover .icons {
+  display: block;
+}
+
+#FAQ .Head {
+  text-align: center;
+}
+
+#Maps {
+  padding: 50px;
+}
+#Maps .about h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#Contack .container .row .addressI {
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  margin: 5px;
+}
+#Contack .container .row .addressI i {
+  font-size: 36px;
+  padding-bottom: 10px;
+  color: #3fbbc0;
+}
+#Contack .container .row .addressI h1 {
+  font-size: 20px;
+  color: rgb(119, 119, 119);
+}
+#Contack .container .row .addressI p {
+  font-size: 14px;
+  color: rgb(68, 68, 68);
+}/*# sourceMappingURL=style.css.map */

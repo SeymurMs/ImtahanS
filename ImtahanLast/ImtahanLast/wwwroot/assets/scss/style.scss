@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+#day{
+    background-color: #3fbbc0;
+    .navbar{
+        padding: 0 !important;
+        .container{
+            a{
+                color: white;
+                i{
+                    font-size: 16px;
+                }
+                span{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+#navigation{
+    .navbar{
+        .container{
+            .navbar-brand{
+                img{
+                    width: 50%;
+                }
+            }
+         .nav-item{
+            &:hover{
+                color: rgb(63, 187, 192) !important;
+            }
+            .MakeAn{
+                color: white !important;
+                border: 1px solid  rgb(63, 187, 192);
+                background-color:rgb(63, 187, 192) ;
+                margin-left: 10px;
+            }
+         }   
+        }
+    }
+}
+#sliders{
+    .carousel-inner{
+        .carousel-item{
+            .carousel-caption{
+                border-top: 1px solid #3fbbc0;
+                border-width: 5px;
+                background-color: white;
+                color: black;
+                a{
+                    border: 1px solid #3fbbc0;
+                    background-color:#3fbbc0 ;
+                    color: white;
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+}
+#Services{
+    padding-top: 50px;
+    .container{
+        .row{
+            h1{
+                text-align: center;
+            }
+          .servicesHead{
+            text-align: center;
+          }  
+          .servicesInside{
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            i{
+                font-size: 60px;
+                    &::before{
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+                        border-radius: 20px;
+                    }
+                    padding-bottom: 20px;
+                    color: #3fbbc0;
+            }
+            h4{
+                font-weight: 600;
+                font-size: 18px;
+                transition: 0.4s all;
+                &:hover{
+                    color: rgb(63, 187, 192);
+                    cursor: pointer;
+                }
+            }
+          }
+        }
+    }
+}
+#Doctors{
+    padding-top: 50px;
+    .DoctorHead{
+        text-align: center;
+        p{
+            padding-top: 10px
+        }
+    }
+    .card{
+        position: relative;
+        transition: 0.5s all;
+        border: none;
+        .card-body{
+            text-align: center;
+        }
+        .icons{
+            position: absolute;
+            bottom: 28%;
+            left: 29%;
+            display: none;
+            a{
+                color: grey;
+                padding-left: 10px;
+                transition: 0.4s all;
+                &:hover{
+                    color: #3fbbc0;
+                }
+            }
+        }
+        &:hover{
+            .icons{
+              display: block;  
+            }
+        }
+    }
+}
+#FAQ{
+    .Head{
+        text-align: center;
+    }
+}
+#Maps{
+    padding: 50px;
+    .about{
+        h1{
+            font-size: 32px;
+            font-weight: bold;
+        }
+    }
+}
+#Contack{
+    .container{
+        .row{
+            .addressI{
+                padding: 20px;
+                text-align: center;
+                box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+                margin: 5px;
+                i{
+                    font-size: 36px;
+                    padding-bottom: 10px;
+                    color: #3fbbc0;
+                }
+                h1{
+                    font-size: 20px;
+                    color: rgb(119, 119, 119);
+                }
+                p{
+                    font-size: 14px;
+                    color: rgb(68 , 68, 68);
+                }
+            }
+        }
+    }
+}

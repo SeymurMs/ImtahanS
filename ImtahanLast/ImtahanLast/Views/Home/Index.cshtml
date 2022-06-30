@@ -1,0 +1,394 @@
+﻿@model List<Doctors>
+@{
+    ViewData["Title"] = "Index";
+}
+<!-- Main start -->
+<main>
+    <section id="sliders">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/slide-1.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <a href="" class="btn">ReadMore</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/slide-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <a href="" class="btn">ReadMore</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/slide-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <a href="" class="btn">ReadMore</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="Services">
+        <div class="container">
+            <div class="row">
+                <div class="servicesHead">
+                    <div class="h1">
+                        <h1>
+                            SERVICES
+                            <hr>
+                        </h1>
+                    </div>
+                    <p>
+                        SERVICES
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                        Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                        alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="servicesInside">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <div class="desc">
+                            <h4>Lorem, ipsum.</h4>
+                            <hr>
+                            <p>
+                                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="servicesInside">
+                        <i class="fa-solid fa-pills"></i>
+                        <div class="desc">
+                            <h4>Lorem, ipsum.</h4>
+                            <hr>
+                            <p>
+                                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="servicesInside">
+                        <i class="fa-solid fa-user-doctor"></i>
+                        <div class="desc">
+                            <h4>Lorem, ipsum.</h4>
+                            <hr>
+                            <p>
+                                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="servicesInside">
+                        <i class="fa-solid fa-dna"></i>
+                        <div class="desc">
+                            <h4>Lorem, ipsum.</h4>
+                            <hr>
+                            <p>
+                                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="servicesInside">
+                        <i class="fa-brands fa-accessible-icon"></i>
+                        <div class="desc">
+                            <h4>Lorem, ipsum.</h4>
+                            <hr>
+                            <p>
+                                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="servicesInside">
+                        <i class="fa-solid fa-hospital"></i>
+                        <div class="desc">
+                            <h4>Lorem, ipsum.</h4>
+                            <hr>
+                            <p>
+                                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Doctors">
+        <div class="container">
+            <div class="row">
+                <div class="DoctorHead">
+                    <h1>DOCTORS</h1>
+                    <hr>
+                    <p>
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                        Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                        alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                    </p>
+                </div>
+                @foreach (var item in Model)
+                {
+                <div class="col-lg-3 div col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="~/assets/DoctorImg/@item.ImageUrl" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">@item.Title</p>
+
+                        </div>
+                        <div class="icons  ">
+                            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+                }
+                
+
+            </div>
+        </div>
+    </section>
+    <section id="FAQ">
+        <div class="container">
+            <div class="row">
+                <div class="Head">
+                    <h1 style="text-align: center;">FREQUENTLY ASKED QUESTIOINS</h1>
+                    <p>
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                        Sit sint
+                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                        Quia
+                        fugiat sit in iste officiis commodi quidem hic quas.
+                    </p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Non consectetur a erat nam at lectus urna duis?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
+                                non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
+                                purus non.
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
+                                donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                                cursus turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
+                                Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
+                                tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
+                                donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                                cursus turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
+                                est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
+                                suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem
+                                dolor?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
+                                integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                                eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                                Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus.
+                                Nibh tellus molestie nunc non blandit massa enim nec.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="Maps">
+        <div class="container">
+            <div class="row">
+                <div style="text-align: center;" class="about">
+                    <h1>CONTACT</h1> <hr>
+                    <p>
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                        fugiat sit in iste officiis commodi quidem hic quas.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12160.726964911593!2d49.81078955709855!3d40.360494386007794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307f8ddd5d7fc5%3A0x82edb079e84977c8!2sKapital%20Bank%20-%20Badamdar%20filial%C4%B1!5e0!3m2!1sen!2s!4v1656570580156!5m2!1sen!2s"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section id="Contack">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="addressI">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h1>Our Address</h1>
+                                <p>A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="addressI">
+                                <i class="fa-regular fa-envelope-open"></i>
+                                <h1>Email Us</h1>
+                                <p>info@example.com</p>
+                                <p>contact@example.com</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="addressI">
+                                <i class="fa-solid fa-phone"></i>
+                                <h1>Call Us</h1>
+                                <p>+1 5589 55488 55</p>
+                                <p>+1 6678 254445 41</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <div class="mb-3">
+                                <textarea style="height: 200px;" type="text" class="form-control" placeholder="Subject"></textarea>
+                            </div>
+                        </div>
+                        <button href="" class="btn btn-primary"><span style="color: 3fbbc0 !important;">Send Message</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
